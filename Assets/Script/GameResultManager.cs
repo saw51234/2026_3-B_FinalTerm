@@ -21,6 +21,7 @@ public class GameResultManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI CoinText;
     [SerializeField] TextMeshProUGUI MessageText;
     [SerializeField] Button PlayButton;
+    [SerializeField] Button BackButton;
 
     string userKey;
     int currentCoin;
@@ -85,6 +86,7 @@ public class GameResultManager : MonoBehaviour
     IEnumerator SimulateGame()
     {
         PlayButton.interactable = false;
+        if (BackButton != null) BackButton.interactable = false;
         MessageText.text = "Playing...";
 
         yield return new WaitForSeconds(2f);
@@ -114,6 +116,7 @@ public class GameResultManager : MonoBehaviour
             dispatcher.Enqueue(() =>
             {
                 PlayButton.interactable = true;
+                if (BackButton != null) BackButton.interactable = true;
 
                 if (task.IsFaulted)
                 {

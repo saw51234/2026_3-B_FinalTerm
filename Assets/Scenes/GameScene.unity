@@ -363,6 +363,7 @@ MonoBehaviour:
   CoinText: {fileID: 1705650955}
   MessageText: {fileID: 1606064784}
   PlayButton: {fileID: 816199470}
+  BackButton: {fileID: 1454215394}
 --- !u!4 &455155387
 Transform:
   m_ObjectHideFlags: 0
