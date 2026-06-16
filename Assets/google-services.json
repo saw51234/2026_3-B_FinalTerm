@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "169108069447",
+    "firebase_url": "https://finalterm-b1737-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "finalterm-b1737",
+    "storage_bucket": "finalterm-b1737.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169108069447:android:90b4c35e0bd8491fc36562",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.FinalTerm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvzzPfY1NJtPobBLlehpWr4MKo9E7N-cY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
